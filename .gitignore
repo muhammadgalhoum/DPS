@@ -1,0 +1,5 @@
+.pytest_cache/
+dpvenv/
+__pycache__/
+migrations/
+db.sqlite3
