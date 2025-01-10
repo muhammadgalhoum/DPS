@@ -106,6 +106,7 @@ Open Postman and import the collection which also contains Documentation then te
 ### 9. Test the API using pytest
 
 In the main directory run the following command.
+
 ```bash
 pytest
 ```
