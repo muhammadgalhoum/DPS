@@ -117,7 +117,7 @@ def test_rotate_image(api_client, create_test_image):
 
     # Ensure the upload was successful and retrieve the image ID from the response
     assert response.status_code == status.HTTP_201_CREATED
-    image_id = response.data['id']  # Assuming the upload returns an 'id' field
+    image_id = response.data['id']
 
     # Now, rotate the uploaded image
     rotate_url = reverse('rotate-image')
@@ -138,7 +138,7 @@ def test_convert_pdf_to_image(api_client, create_test_pdf):
 
     # Ensure the upload was successful and retrieve the PDF ID from the response
     assert response.status_code == status.HTTP_201_CREATED
-    pdf_id = response.data['id']  # Assuming the upload returns an 'id' field
+    pdf_id = response.data['id']
 
     # Use the convert-pdf-to-image API to process the uploaded PDF
     url = reverse('convert-pdf-to-image')
