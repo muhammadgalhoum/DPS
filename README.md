@@ -103,7 +103,14 @@ The server will be available at http://127.0.0.1:8000/.
 
 Open Postman and import the collection which also contains Documentation then test the API endpoints.
 
-### 9. Docker Setup
+### 9. Test the API using pytest
+
+In the main directory run the following command.
+```bash
+pytest
+```
+
+### 10. Docker Setup
 
 To run the project in Docker, follow these steps:
 
