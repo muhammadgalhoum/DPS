@@ -1,7 +1,7 @@
 import pytest
 from django.urls import reverse
 from rest_framework import status
-from ..models import Image, PDF
+from ..models import Image
 from PIL import Image as PILImage
 import base64
 from io import BytesIO
