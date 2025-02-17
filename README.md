@@ -41,7 +41,6 @@ Start by cloning the repository to your local machine:
 
 ```bash
 git clone https://github.com/muhammadgalhoum/https://github.com/muhammadgalhoum/DPS.git
-cd DPS
 ```
 
 ### 2. Create a Virtual Environment
